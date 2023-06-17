@@ -44,7 +44,6 @@ export default {
         .get("https://viacep.com.br/ws/" + numcep + "/json")
         .then(function (response) {
           vm.cep = response.data;
-          console.log(response.data);
         });
     },
   },
